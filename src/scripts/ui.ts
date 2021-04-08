@@ -16,6 +16,9 @@ class Ui {
         console.log(this.list);
         this.render();
     }
+    eventListener() {
+        const data = document.getElementsByClassName("button");
+    }
     render() {
         var html: string = "<ul>";
         this.list.forEach((item: Products) => {
