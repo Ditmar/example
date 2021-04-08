@@ -22,7 +22,17 @@ class Ui {
             html += `<li>${item.name} ${item.description} <button id="${item.id}">Eliminar</button></li>`
         });
         html += "</ul>";
+
         this.container.innerHTML = html;
+        this.addEventListenerButtons();
+    }
+    addEventListenerButtons() {
+        const elemets: any = document.getElementsByTagName("button");
+        for (var i = 0; i < elemets.length; i++) {
+            elemets[i].addEventListener("click", (e: any) => {
+                //console.log(e.target.attribute("id"));
+            });
+        }
     }
 }
 new Ui();

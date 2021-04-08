@@ -6,9 +6,9 @@ class MagementProduct {
         this.list = new Array();
         //test case
         this.list.push({ id: 1, name: "Cocacola", description: "Cocacola Zero", price: 10, date: new Date(), quantity: 100 });
-        this.list.push({ id: 1, name: "Mani", description: "Mani Tostado", price: 10, date: new Date(), quantity: 50 });
-        this.list.push({ id: 1, name: "Papas Fritas", description: "Bob sponja", price: 5, date: new Date(), quantity: 50 });
-        this.list.push({ id: 1, name: "Mantequilla", description: "Mantequilla pil", price: 22, date: new Date(), quantity: 20 });
+        this.list.push({ id: 2, name: "Mani", description: "Mani Tostado", price: 10, date: new Date(), quantity: 50 });
+        this.list.push({ id: 3, name: "Papas Fritas", description: "Bob sponja", price: 5, date: new Date(), quantity: 50 });
+        this.list.push({ id: 4, name: "Mantequilla", description: "Mantequilla pil", price: 22, date: new Date(), quantity: 20 });
 
         this.searchList = new Array();
     }
