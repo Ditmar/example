@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Example of typscript with git",
   "main": "./dist/app.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc && node ./dist/app.js"
+    "build": "tsc"
   },
   "keywords": [
     "typescript",
