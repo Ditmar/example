@@ -30,7 +30,7 @@ class Ui {
         const elemets: any = document.getElementsByTagName("button");
         for (var i = 0; i < elemets.length; i++) {
             elemets[i].addEventListener("click", (e: any) => {
-                //console.log(e.target.attribute("id"));
+                this.mangement.removeProduct(e.target.getAttribute("id"));
             });
         }
     }
