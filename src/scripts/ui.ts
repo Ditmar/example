@@ -34,6 +34,8 @@ class Ui {
         for (var i = 0; i < elemets.length; i++) {
             elemets[i].addEventListener("click", (e: any) => {
                 this.mangement.removeProduct(e.target.getAttribute("id"));
+                //*/dsfñksdkfjsdkjfjksdf 
+                ///dsgfdfljgkdfjgikfjk
             });
         }
     }
