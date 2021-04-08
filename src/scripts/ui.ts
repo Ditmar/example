@@ -33,9 +33,8 @@ class Ui {
         const elemets: any = document.getElementsByTagName("button");
         for (var i = 0; i < elemets.length; i++) {
             elemets[i].addEventListener("click", (e: any) => {
-                this.mangement.removeProduct(e.target.getAttribute("id"));
-                //*/dsfñksdkfjsdkjfjksdf 
-                ///dsgfdfljgkdfjgikfjk
+                var id = e.target.getAttribute("id");
+                this.mangement.removeProduct(id);
             });
         }
     }
